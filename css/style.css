@@ -17,6 +17,14 @@
     color: red;
 }
 
+/* Header  */
+header {
+    background-color: lightsalmon;
+    color: white;
+    padding: 5px;
+    font-size: 45px;
+}
+
 /* Main */
 main {
     margin-top: 50px;
