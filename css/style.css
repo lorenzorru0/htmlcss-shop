@@ -7,17 +7,64 @@
 
 /* Common */
 
+/* Colors  */
+.red {
+    color: red;
+}
+
 /* Main */
+main {
+    margin-top: 50px;
+}
 .row-1 {
     width: 70%;
     margin: auto;
+    position: relative;
 }
-.img-hoover {
+.img2-hover {
     display: none;
 }
 .window  {
     display: inline-block;
     position: relative;
     width: calc(100% / 3);
-    padding: 20px 10px;
+    padding: 5px;
+}
+img {
+    width: 100%;
+}
+.heart {
+    position: absolute;
+    background-color: white;
+    right: 5px;
+    top: 20px;
+    font-size: 30px;
+    padding: 10px;
+}
+.discount {
+    position: absolute;
+    color: white;
+    left: 5px;
+    bottom: 100px;
+}
+span {
+    padding: 5px;
+}
+.sales {
+    background-color: red;
+}
+.sostenibility {
+    background-color: green;
+}
+.canc {
+    text-decoration: line-through;
+}
+
+/* Hoover  */
+.window:hover .img1-hover {
+    display: none;
+}
+
+.window:hover .img2-hover {
+    display: inline-block;
 }
