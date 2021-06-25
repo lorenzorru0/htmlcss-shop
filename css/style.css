@@ -68,6 +68,9 @@ span {
 .canc {
     text-decoration: line-through;
 }
+.description .red {
+    font-weight: bold;
+}
 
 /* Hoover  */
 .window:hover .img1-hover {
