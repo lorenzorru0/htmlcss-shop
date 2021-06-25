@@ -42,10 +42,13 @@ main {
 .img2-hover {
     display: none;
 }
+.product {
+    position: relative;
+}
 .heart {
     position: absolute;
     background-color: white;
-    right: 5px;
+    right: 0px;
     top: 20px;
     font-size: 30px;
     padding: 10px;
@@ -53,8 +56,12 @@ main {
 .discount {
     position: absolute;
     color: white;
-    left: 5px;
-    top: 85%;
+    left: 0px;
+    top: 92%;
+    
+}
+.discount span {
+    border-radius: 5px;
 }
 span {
     padding: 5px;
