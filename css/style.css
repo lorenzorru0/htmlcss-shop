@@ -37,6 +37,7 @@ main {
     padding: 5px;
 }
 .product img {
+    display: block;
     width: 100%;
 }
 .product .img2-hover {
@@ -85,5 +86,5 @@ span {
 }
 
 .window:hover .img2-hover {
-    display: inline-block;
+    display: block;
 }
