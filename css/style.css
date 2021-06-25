@@ -30,17 +30,17 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.img2-hover {
-    display: none;
-}
 .window  {
     display: inline-block;
     position: relative;
     width: calc(100% / 3);
     padding: 5px;
 }
-img {
+.window img {
     width: 100%;
+}
+.img2-hover {
+    display: none;
 }
 .heart {
     position: absolute;
