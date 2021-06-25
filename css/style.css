@@ -36,10 +36,10 @@ main {
     width: calc(100% / 3);
     padding: 5px;
 }
-.window img {
+.product img {
     width: 100%;
 }
-.img2-hover {
+.product .img2-hover {
     display: none;
 }
 .product {
